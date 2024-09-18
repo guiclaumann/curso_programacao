@@ -24,8 +24,8 @@ public class Fixacao {
 		System.out.printf("Measu with eight decimal places: %.8f %n", measure);
 		System.out.printf("Rounded (three deciaml places): %.3f %n", measure);
 		Locale.setDefault(Locale.US);
-		System.out.printf("US decimal point: %.3f", measure);
-
+		System.out.printf("US decimal point: %.3f %n", measure);
+		System.out.print(code);
 	}
 
 }
