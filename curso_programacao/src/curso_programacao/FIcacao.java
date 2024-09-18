@@ -19,7 +19,7 @@ public class FIcacao {
 			System.out.printf("%s, whitch prince is $:%.2f %n", product1, prince1);
 			System.out.printf("%s, Which price is $:%.2f %n %n", product2, prince2);
 			
-			System.out.printf("Record: %s years old, code %d  and gender: %s %n %n", product2, code, gender);
+			System.out.printf("Record: %s years old, code %d  and gender: %s %n %n", age, code, gender);
 			
 			System.out.printf("Measu with eight decimal places: %.8f %n", measure);
 			System.out.printf("Rounded (three deciaml places): %.3f %n" , measure);
