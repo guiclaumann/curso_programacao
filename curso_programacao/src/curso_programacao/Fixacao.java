@@ -1,7 +1,5 @@
 package curso_programacao;
 
-import java.util.Locale;
-
 public class Fixacao {
 
 	public static void main(String[] args) {
@@ -23,7 +21,6 @@ public class Fixacao {
 
 		System.out.printf("Measu with eight decimal places: %.8f %n", measure);
 		System.out.printf("Rounded (three deciaml places): %.3f %n", measure);
-		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f %n", measure);
 		System.out.print(code);
 	}
